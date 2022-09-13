@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/benText_txv_main"
+        android:layout_width="53dp"
+        android:layout_height="24dp"
+        android:layout_marginTop="1dp"
+        android:text="Ben"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/introText_txv_main" />
+
+    <TextView
+        android:id="@+id/gavinText_txv_main"
+        android:layout_width="53dp"
+        android:layout_height="24dp"
+        android:text="Gavin"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/benText_txv_main" />
+
+    <TextView
+        android:id="@+id/rylanText_txv_main"
+        android:layout_width="53dp"
+        android:layout_height="24dp"
+        android:gravity="fill"
+        android:text="Rylan"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/gavinText_txv_main" />
+
+    <TextView
+        android:id="@+id/loganText_txv_main"
+        android:layout_width="53dp"
+        android:layout_height="24dp"
+        android:gravity="fill"
+        android:text="Logan"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rylanText_txv_main" />
+
+    <TextView
+        android:id="@+id/sethText_txv_main"
+        android:layout_width="53dp"
+        android:layout_height="24dp"
+        android:gravity="fill"
+        android:text="Seth"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/loganText_txv_main" />
+
+    <TextView
+        android:id="@+id/connorText_txv_main"
+        android:layout_width="53dp"
+        android:layout_height="24dp"
+        android:gravity="fill"
+        android:text="Connor"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sethText_txv_main" />
+
+    <TextView
+        android:id="@+id/title_textview_main"
+        android:layout_width="355dp"
+        android:layout_height="47dp"
+        android:fontFamily="sans-serif-light"
+        android:gravity="fill"
+        android:includeFontPadding="false"
+        android:text="Developer Intro App"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="#0023FF"
+        android:textColorHighlight="#043900"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.046" />
+
+    <TextView
+        android:id="@+id/introText_txv_main"
+        android:layout_width="312dp"
+        android:layout_height="57dp"
+        android:gravity="fill"
+        android:text="Welecome this app was created By:"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.110000014" />
+
+    <Button
+        android:id="@+id/learnMore_button_main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Learn More"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.65999997" />
+
+    <EditText
+        android:id="@+id/edit_txt_main"
+        android:layout_width="305dp"
+        android:layout_height="80dp"
+        android:ems="10"
+        android:gravity="bottom|center"
+        android:inputType="textPersonName"
+        android:text="Type Name Here to Learn More"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.52" />
+
+    <TextView
+        android:id="@+id/info_txt_main"
+        android:layout_width="295dp"
+        android:layout_height="192dp"
+        android:layout_marginTop="12dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/learnMore_button_main"
+        app:layout_constraintVertical_bias="0.0"
+        tools:visibility="visible" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
